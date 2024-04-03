@@ -77,6 +77,23 @@ const App = () => {
             return false
         }
 
+        if (l > 0) {
+            alert('L должно быть положительным')
+            return false
+        }
+        if (r >= 0) {
+            alert('R должно быть неотрицательным')
+            return false
+        }
+        if (c > 0) {
+            alert('C должно быть положительным')
+            return false
+        }
+        if (t >= 0) {
+            alert('t должно быть неотрицательным')
+            return false
+        }
+
         return true
     }
 
